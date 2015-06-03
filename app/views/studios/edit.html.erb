@@ -1,0 +1,15 @@
+<%= form_for @studio do |f| %>
+	<%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :location %>
+  <%= f.text_field :location %>
+
+  <%= f.label :website %>
+  <%= f.text_field :website %>
+
+  <%= f.label :work_sample %>
+  <%= f.text_field :work_sample %>
+
+  <%= f.submit 'Edit Studio' %>
+<% end %>

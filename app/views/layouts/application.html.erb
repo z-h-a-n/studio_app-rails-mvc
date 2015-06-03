@@ -8,6 +8,13 @@
 </head>
 <body>
 
+<header>
+	<nav>
+		<li><%= link_to('Studios', studios_path) %></li>
+		<li><%= link_to('New Studio',new_studio_path) %></li>
+	</nav>
+</header>
+
 <%= yield %>
 
 </body>

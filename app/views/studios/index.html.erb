@@ -7,6 +7,12 @@
 			<li>
 				<%= link_to(studio.name, studio_path(studio.id)) %>
 			</li>
+			<li>
+				<%= link_to('EDIT', edit_studio_path(studio.id)) %>
+			</li>
+			<li>
+				<%= link_to('DELETE', studio_path(studio.id), method: :delete) %>
+			</li>
 		</ul>
 	</div>
 	<% end %>
